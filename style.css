@@ -1,6 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
 .container{
     text-align: center;
+    margin-top: 5rem;
 }
 .input-field{
     box-shadow: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+.btn{
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
+    border-radius: .5rem ;
+}
+.cancel{
+    width: 20rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border-radius: .5rem ;
 }
